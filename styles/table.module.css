@@ -1,0 +1,13 @@
+.main-table {
+    border: 2px solid #000;
+}
+
+.main-table td, .main-table th {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+.main-table th {
+    background-color: #f2f2f2;
+}
