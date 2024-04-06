@@ -17,6 +17,9 @@ const Navbar = () => {
         <li className="p-4"><Link href="/Chatbot">Chatbot</Link></li>
         <li className="p-4"><Link href="/Result">Marksheet</Link></li>
         <li className="p-4">
+          <Link href="https://bunk-bc.vercel.app/">BunkBC</Link>
+        </li>
+        <li className="p-4">
           <Link href="https://xaviertech.ac.in/index.php/about">About</Link>
         </li>
         <li className="p-4"><a href="https://xaviertech.ac.in/">Contact</a></li>
