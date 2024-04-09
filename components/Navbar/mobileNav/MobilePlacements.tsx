@@ -90,7 +90,7 @@ const MobilePlacements = () => {
         <ul className=" space-y-2 bg-black text-white font-bold">
         {mobileDropdown && (
           <>
-         <li className="p-2" onClick={handleVocation}>
+         <li className="p-2" >
              <Link href="https://xaviertech.ac.in/index.php/events/events-28">Training & Placement</Link>
               </li>
               <li className="p-2" onClick={handleTraining}>

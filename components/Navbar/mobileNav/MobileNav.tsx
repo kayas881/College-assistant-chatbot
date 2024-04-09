@@ -6,6 +6,7 @@ import MobileContact from "./MobileContact";
 import MobileAdminist from "./MobileAdminist";
 import MobileEvent from "./MobileEvent";
 import MobilePlacements from "./MobilePlacements";
+import StudentInfo from "./StudentInfo";
 const StyledLinkCcn = styled.a`
   text-decoration: none;
   display: block;
@@ -113,6 +114,12 @@ const MobileNav = () => {
           <MobileAdminist />
           <MobileEvent />
           <MobilePlacements />
+          <StudentInfo />
+          <li className="p-4 border-b border-gray-600">
+            <Link href="/Notices">
+            Notices
+            </Link>
+          </li>
           <li className="p-4 border-b border-gray-600">About</li>
           <li className="p-4 relative group" ref={dropdownRef}>
             <div className="flex items-center" onClick={handleToolsDropdown}>

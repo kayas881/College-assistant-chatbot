@@ -126,7 +126,7 @@ const Tools = () => {
             <StyledLink href="/Result">Marksheet</StyledLink>
           </li>
           <li className="p-2">
-            <StyledLink href="https://bunk-bc.vercel.app/">BunkBc</StyledLink>
+            <StyledLink href="https://bunk-bc.vercel.app/">Attendance Manager</StyledLink>
           </li>
         </ul>
       </li>

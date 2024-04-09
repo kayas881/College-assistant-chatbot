@@ -7,6 +7,7 @@ import Administ from "./Navbar/Nav/Administ";
 import MobileNav from "./Navbar/mobileNav/MobileNav";
 import Event from "./Navbar/Nav/Event";
 import Placement from "./Navbar/Nav/Placement";
+import StudentInfo from "./Navbar/Nav/StudentInfor";
 import styled from 'styled-components';
 const StyledLink = styled.a`
   text-decoration: none;
@@ -100,7 +101,8 @@ useEffect(() => {
         {isMounted && <Administ />}
         {isMounted && <Event />}
         {isMounted && <Placement />}
-        {isMounted && <Tools />} {/* Use Tools component */}
+        {isMounted && <Tools />}
+        {isMounted && <StudentInfo />} {/* Use Tools component */}
       </ul>
       
       <MobileNav />

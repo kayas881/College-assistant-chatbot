@@ -9,13 +9,13 @@ import Events from './Events';
 const Hero = () => {
   return (
     <div className='relative text-white'>
-      <div className='absolute left-0 top-28 p-4 z-20'>
+      <div className='absolute left-0 top-28 p-4 z-20 max-md:hidden'>
         <h1 className='mb-5 text-3xl font-extrabold'>
-          <Link href="https://xaviertech.ac.in/index.php/students-info/students-info-5" className='cursor-pointer'>Notices</Link>
+          <Link href="/Notices" className='cursor-pointer'>Notices</Link>
         </h1>
         <Announcements />
       </div>
-      <div className='absolute left-0 top-80 p-4 z-20'>
+      <div className='absolute left-0 top-80 p-4 z-20 max-md:hidden'>
         <h1 className='mb-5 text-3xl font-extrabold'>Current Events:</h1>
         < Events />
       </div>
