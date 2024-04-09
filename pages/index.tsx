@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 
 function App() {
   return (
-    <div className=" bg-[#000300]">
+    <div className="">
       <Navbar></Navbar>
       <Hero></Hero>
     </div>

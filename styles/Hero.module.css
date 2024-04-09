@@ -1,5 +1,9 @@
 
-
+.cantainer {
+  background-image: url('../assets/xtech1.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .glowBtn {
   background-color: #000;
   width: var(--card-width);

@@ -1,0 +1,26 @@
+@keyframes slideFadeIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.announcementContainer {
+  padding: 4px;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcementText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  animation: slideFadeIn 1s ease-in-out forwards;
+}
