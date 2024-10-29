@@ -27,14 +27,10 @@ Start the development server:
 ```sh
 npm start
 Visit http://localhost:3000 to see the application in action.
-
+```
 Project Structure
 The repository contains various TypeScript, CSS, and JavaScript files that implement the chatbot functionality. Here are some recent commits:
 
-changes mdae
-Added function to handle mp4 files
-added more updates
-For more details on the commits, you can view the commit history.
 
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
